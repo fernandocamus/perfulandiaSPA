@@ -9,6 +9,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 
 public class Pedido {
+    private String idPedido;
+    private String idUsuario; // No se si se necesita, ya que es de la clase Usuario
+    private String idProducto; // No se si se necesita, ya que es de la clase Inventario
+    private double cantidadProducto;
     private double totalCompra;
     private String direccion;
     private String ciudad;
